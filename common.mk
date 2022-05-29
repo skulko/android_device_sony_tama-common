@@ -161,7 +161,8 @@ PRODUCT_PACKAGES_DEBUG += \
 PRODUCT_PACKAGES += \
     android.hardware.camera.common@1.0.vendor \
     android.hardware.camera.device@3.4.vendor \
-    android.hardware.camera.provider@2.4.vendor
+    android.hardware.camera.provider@2.4.vendor \
+    libgui_shim
 
 # Component overrides
 PRODUCT_COPY_FILES += \
@@ -385,7 +386,6 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     ims-ext-common \
     ims_ext_common.xml \
-    lib-imsvtshim \
     qti-telephony-hidl-wrapper \
     qti_telephony_hidl_wrapper.xml \
     qti-telephony-utils \
